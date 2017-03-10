@@ -3,8 +3,7 @@ layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
-    <link href="//cdn.bootcss.com/bootstrap/4.0.0-alpha.6/css/bootstrap-grid.css" rel="stylesheet">
-    <span class="btn btn-success">&larr; <a href="{{ site.baseurl }}/">主页</a></span>
+    <span class="back">&larr; <a href="{{ site.baseurl }}/">主页</a></span>
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
     <p class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %d, %Y" }}</time>
@@ -20,6 +19,8 @@ layout: default
   			{% endcapture %}
   			{% assign tags_content = tags_content_temp %}
   		{% endfor %}
+
+      <hr>
 
   		•	<span class="tags" itemprop="tags">{{ tags_content }}</span>
 
