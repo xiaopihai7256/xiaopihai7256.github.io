@@ -1,10 +1,8 @@
 ---
-
 layout: post
 title: JavaScript函数
-tags: [JavaScript, 函数]
+tags: [JavaScript]
 author: 杨比轩
-
 ---
 
 
