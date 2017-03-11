@@ -1,18 +1,3 @@
 ---
-layout: default
+layout: content
 ---
-<div class="home">
-	<section class="site-header">
-		<h1 class="smallcap"><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-		<p>HI，不知道要写点什么，这是一个个人博客，以后博客的更新都会挪到这里来</p>
-	</section>
-	<section>
-		<ul class="post-list">
-			{% for post in site.posts %}
-			<li>
-				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
-			</li>
-			{% endfor %}
-		</ul>
-	</section>
-</div>
