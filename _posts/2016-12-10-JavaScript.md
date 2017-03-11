@@ -1,8 +1,8 @@
 ---
 layout: post
-title: JavaScript函数
+title: JavaScript
 tags: [JavaScript]
-author: 杨比轩
+author: luke 
 ---
 
 
