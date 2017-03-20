@@ -54,6 +54,9 @@ ul {
 img {
     max-width: 100%;
     vertical-align: middle;
+    -webkit-box-shadow: 0 -1px 10px rgba(0,0,0,.5);
+    -moz-box-shadow: 0 -1px 10px rgba(0,0,0,.5);
+    box-shadow: 0 -1px 10px rgba(0,0,0,.5);
 }
 /**
  * Figures
@@ -108,7 +111,6 @@ blockquote {
     color: $grey-color;
     padding-left: $spacing-unit / 2;
     border-left: 2px solid $grey-color-light;
-    font-style: italic;
     font-size: $small-font-size;
 
     > :last-child {
