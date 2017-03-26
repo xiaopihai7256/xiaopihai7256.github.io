@@ -1,27 +1,43 @@
 ---
 layout: default
 ---
+
 <div class="home">
-	<section class="site-header">
-		<h1 class="smallcap"><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-		
-		<p>
-			拙略的技术，刚好迎合了我的审美，于是这个博客大概就长成了这样子！
-		</p>
-		<div >
-			<span style="margin-right: 10px;margin-bottom: 10px"><a href="{{ site.url }}{{ site.baseurl }}/tagged" > 分类</a> | </span>
-			<a href="{{ site.url }}{{ site.baseurl }}/about" > 关于</a>
-		</div>
-	</section>
-	<section>
-		<table >
-			{% for post in site.posts %}
-			<tr class="post-list">
-				<td>
-					<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
-				</td>
-			</li>
-			{% endfor %}
-		</ul>
-	</section>
+  <a class="rss-link" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS Feed</a>
+  <h1 class="page-heading">Articles</h1>
+
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        
+        <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
+
+        <div class="post-excerpt">
+          {{ post.excerpt }}
+          <p>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More &raquo;</a>
+          </p>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+  
+  <!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">PREV</a>
+  {% else %}
+    <span class="previous">PREV</span>
+  {% endif %}
+  <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">NEXT</a>
+  {% else %}
+    <span class="next ">NEXT</span>
+  {% endif %}
+</div>
+
 </div>
