@@ -1,14 +1,11 @@
 ---
 layout: post
 title: 阅读Mybatis文档笔记（一）
-tags: [数据库, Mybatis]
+categories: 
+ - 数据库
+ - Mybatis
 author: 杨比轩
 ---
-
-* 目录
-{:toc}
-
-
 
 > 笔记是在我使用过mybatis后再读文档的记录，不是入门教程。
 

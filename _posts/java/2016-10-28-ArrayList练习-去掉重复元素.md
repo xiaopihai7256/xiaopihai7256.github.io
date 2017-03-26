@@ -1,7 +1,8 @@
 ---
 layout: post
 title: ArrayList练习-去掉重复元素
-tags: [java]
+categories: 
+ - java
 author: 杨比轩
 ---
 

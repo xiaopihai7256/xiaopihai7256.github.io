@@ -2,7 +2,8 @@
 
 layout: post
 title: JavaScript基础
-tags: [JavaScript]
+categories: 
+ - JavaScript
 author: 杨比轩
 ---
 

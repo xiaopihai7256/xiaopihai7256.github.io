@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Comparator练习-String按照长度比较
-tags: [java]
+categories: 
+ - java
 author: 杨比轩
 ---
 

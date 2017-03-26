@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Killer网卡未正确映射ISP问题解决办法
-tags: [Windows]
+categories: 
+ - Windows
 author: 杨比轩
 ---
 

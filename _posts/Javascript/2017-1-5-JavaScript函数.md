@@ -2,7 +2,8 @@
 
 layout: post
 title: JavaScript函数
-tags: [JavaScript]
+categories: 
+ - JavaScript
 author: 杨比轩
 ---
 

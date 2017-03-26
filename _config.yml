@@ -4,15 +4,15 @@ url: "http://xiaopihai7256.github.io"    # the protocol and hostname of your sit
 baseurl: "" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
 #timezone: Asia/Chongqing
 description: >
-  One or more sentences introducing this blog.
+  我就这么一说，你就这么一看。
 
 # Your information
 email: xiaopihai7256@gmail.com
 author: 杨比轩
-avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
-profile: One sentence introducing yourself.
-#twitter_username: twitter_username
-#github_username:  github_username
+# avatar: "https://s.gravatar.com/avatar/2cc259547a090119ac4026bd5d454082?s=80"
+profile: 我就这么一说，你就这么一看
+weibo_username: xiaopihai7256
+github_username:  xiaopihai7256
 
 # Comment Service (Disqus or 多说)
 #  choose one and un-comment the line to active it

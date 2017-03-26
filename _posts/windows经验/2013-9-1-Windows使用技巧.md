@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Windows使用技巧
-tags: [Windows]
+categories: 
+ - Windows
 author: 杨比轩
 ---
 

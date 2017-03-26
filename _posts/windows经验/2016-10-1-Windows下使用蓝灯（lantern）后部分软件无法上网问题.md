@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Windows下使用lantern后部分软件无法上网问题
-tags: [Windows]
+categories: 
+ - Windows
 author: 杨比轩
 ---
 
