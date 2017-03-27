@@ -48,7 +48,13 @@
         .middle-image {
             display: block;
             margin-left: auto;
-            margin-right: auto
+            margin-right: auto;
+            box-shadow: (3px,3px,10px,#000);
+            -moz-box-shadow: 3px 3px 10px #000;/*firefox*/
+            -webkit-box-shadow: 3px 3px 10px #000;
+            -moz-border-radius:8px;
+            -webkit-border-radius:8px;
+            border-radius: 8px;
         }
     }
     .post-comments {
